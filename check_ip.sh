@@ -2,6 +2,12 @@
 filename='/etc/hosts'
 while read line
 do
+    # AM SCHIMBAT AICI
+    #
+    ##
+    #
+    ##
+    #
     [ "$line" == "" ] && break # Stop on first empty line
     words=($line)
     etc_addr=${words[0]}
